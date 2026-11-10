@@ -1,0 +1,33 @@
+---
+title: "P8105 Final Project Proposal"
+author: "[Group member 1, UNI]; [Group member 2, UNI]; [Group member 3, UNI]; [Group member 4, UNI]"
+output: github_document
+---
+
+## Tentative project title
+
+**Cold Homes in the City: Patterns in NYC Heat and Hot Water Complaints, 2023–2025**
+
+## Motivation
+
+Reliable heating and hot water are essential to healthy housing, especially during New York City's cold months. We aim to understand how residents' reports of heat and hot water problems vary across neighborhoods and seasons, and whether the time taken to close complaints differs across boroughs. Our findings may help identify patterns relevant to housing quality and public service responsiveness.
+
+## Intended final products
+
+We plan to produce a reproducible R-based analysis, a written report, and a public-facing project website containing key findings and visualizations. We will also create a narrated screencast of no more than two minutes.
+
+## Anticipated data sources
+
+Our main source will be the [NYC Open Data 311 Service Requests (2020 to Present)](https://data.cityofnewyork.us/d/erm2-nwe9). We plan to filter requests classified as `HEAT/HOT WATER` from 2023–2025. If feasible, we will supplement these records with daily temperature data from [NOAA Daily Summaries](https://www.ncei.noaa.gov/access/search/data-search/daily-summaries/).
+
+## Planned analyses, visualizations, and coding challenges
+
+We will clean date, borough, ZIP code, complaint category, and closure-status fields; investigate missing data and duplicate requests; and summarize complaint frequency by month, year, and borough. Proposed visuals include time-series plots, borough comparisons, ZIP-code-level maps, and distributions of complaint closure times. If weather data are incorporated, we will explore the association between daily temperature and complaint volume. Challenges include efficiently importing a large dataset, handling unresolved complaints in closure-time calculations, and avoiding misleading comparisons based on raw counts. Because reporting behavior varies, we will not interpret complaints as a direct measure of all heating problems.
+
+## Planned timeline
+
+- **Nov 10–13:** Finalize questions and scope, confirm data accessibility, create the GitHub repository, and submit the proposal and team registration.
+- **Nov 14–20:** Import and inspect data, establish cleaning rules, and attend the project review meeting.
+- **Nov 21–30:** Conduct exploratory analyses and build visualizations.
+- **Dec 1–7:** Refine analyses, write the report, and assemble the website.
+- **Dec 8–12:** Review reproducibility, record the screencast, and submit all deliverables and peer assessments.
