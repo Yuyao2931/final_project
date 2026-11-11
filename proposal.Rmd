@@ -5,10 +5,12 @@ output: github_document
 ---
 
 ## Tentative project title
-** Where Should We Dive and What Might We See? **
+**Where Should We Dive and What Might We See?**
+
 
 ## Motivation
 Our group is interested in diving and marine life! We want to find out which marine sanctuary might be the best place to dive based on the number and variety of fish recorded there. By comparing different locations, we hope to identify places where divers may have a better chance of seeing more types of fish and having a more interesting diving experience.
+
 
 ## Intended final products
 We plan to produce a reproducible R-based analysis, a written report, and a public-facing project website containing key findings and visualizations. A main feature of the website will be an interactive map that allows users to explore dive-friendly marine sanctuaries and view information about diving conditions and marine species. We will also create a narrated screencast of no more than two minutes.
@@ -17,10 +19,13 @@ We plan to produce a reproducible R-based analysis, a written report, and a publ
 ## Anticipated data sources
 We will use NOAA National Marine Sanctuary GIS data (https://sanctuaries.noaa.gov/library/imast_gis.html)  for sanctuary boundaries, OBIS (https://portal.obis.org/data/access)  for marine species occurrence records, and the OBIS Mapper to explore and download data for selected locations.
 
+
 ## Planned analyses, visualizations, and coding challenges
 We will clean and combine NOAA sanctuary information and OBIS species occurrence records. We plan to compare recorded fish species richness across marine sanctuaries and explore differences by season and depth. If suitable data are available, we will also examine changes over time, relationships with water temperature, threatened species, and patterns inside versus outside sanctuary boundaries.
 Visualizations will include an interactive map, comparison bar charts, heatmaps, and time-series plots.
 Coding challenges include combining datasets, cleaning species names, handling missing values, and matching records to sanctuary boundaries. We will consider unequal sampling effort when interpreting differences.
+
+
 ## Planned timeline
 - **Nov 10–13:** Finalize questions and scope, confirm data accessibility, create the GitHub repository, and submit the proposal and team registration.
 - **Nov 14–20:** Import and inspect data, establish cleaning rules, and attend the project review meeting.
